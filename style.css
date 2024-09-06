@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+}
+
+.body {
+    background-image: url('snakle.jpg');
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-size: 100vw 100 vh;
+}
+.score{
+    position: absolute;
+    background-color: silver;
+    width: fit-content;
+    height:fit-content;
+    left: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: 500;
+    top: 20px;
+    font-size: large;
+    
+}
+#conatain {
+    width: 90vmin;
+    height: 80vmin;
+    background: linear-gradient( yellow,white,green);
+    display: grid;
+    border: 9px solid white;
+    grid-template-rows: repeat(18, 1fr);
+    grid-template-columns: repeat(18, 1fr);
+    
+}
+
+.food {
+    background-color: brown;
+    border: 1px solid white;
+    border-radius: 1px;
+}
+
+.head {
+    border: 2px solid white;
+    border-radius: 114px;
+    background-color: purple;
+}
+
+.snake {
+    border-radius: 8px;
+    border: 1px solid white;
+    background-color: blue;
+}
